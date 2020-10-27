@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="djiosdk-core"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\osdk-core\;CMake Files\osdk-core\cmake-modules\;CMake Files\contrib\;CMake Files\sample\;CMake Files\sample\linux\;CMake Files\sample\linux\flight-control\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/osdk-core"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="djiosdk-core">
+				<Option output="/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/libs/libdjiosdk-core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/osdk-core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/protocol/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/hal/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/utility/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/platform/default/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/platform/linux/inc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 djiosdk-core"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="djiosdk-core/fast">
+				<Option output="/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/libs/libdjiosdk-core.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/osdk-core"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/protocol/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/hal/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/utility/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/platform/default/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/platform/linux/inc"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 djiosdk-core/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/osdk-core/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_ack.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_broadcast.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_camera.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_command.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_control.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_error.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_gimbal.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_hardware_sync.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_hotpoint.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_mfio.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_mission_manager.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_mobile_communication.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_mobile_device.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_subscription.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_vehicle.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_version.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_virtual_rc.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/api/src/dji_waypoint.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/hal/src/dji_hard_driver.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/hal/src/dji_log.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/hal/src/dji_memory.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/hal/src/dji_platform_manager.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/hal/src/dji_thread_manager.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/platform/default/src/dji_memory_default.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/platform/linux/src/linux_serial_device.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/platform/linux/src/posix_thread.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/platform/linux/src/posix_thread_manager.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/protocol/src/dji_aes.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/protocol/src/dji_open_protocol.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/protocol/src/dji_protocol_base.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/utility/src/dji_circular_buffer.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/utility/src/dji_singleton.cpp">
+			<Option target="djiosdk-core"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\osdk-core\"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/cmake-modules/DJIOSDKConfig.cmake.in">
+			<Option virtualFolder="CMake Files\osdk-core\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/cmake-modules/DJIOSDKConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\osdk-core\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/contrib/DJIConfig.cmake">
+			<Option virtualFolder="CMake Files\contrib\"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sample\linux\"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/flight-control/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sample\linux\flight-control\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

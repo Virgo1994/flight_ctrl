@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="djiosdk-flightcontrol-sample"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\osdk-core\;CMake Files\osdk-core\cmake-modules\;CMake Files\contrib\;CMake Files\sample\;CMake Files\sample\linux\;CMake Files\sample\linux\flight-control\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/sample/linux/flight-control"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/sample/linux/flight-control/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/sample/linux/flight-control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/sample/linux/flight-control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/sample/linux/flight-control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="djiosdk-flightcontrol-sample">
+				<Option output="/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/bin/djiosdk-flightcontrol-sample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/../../osdk-core/api/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/../../osdk-core/utility/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/../../osdk-core/hal/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/../../osdk-core/protocol/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/../../osdk-core/platform/linux/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/flight-control/../common"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/sample/linux/flight-control/Makefile&quot;  VERBOSE=1 djiosdk-flightcontrol-sample"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/sample/linux/flight-control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/sample/linux/flight-control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/sample/linux/flight-control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="djiosdk-flightcontrol-sample/fast">
+				<Option output="/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/bin/djiosdk-flightcontrol-sample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/../../osdk-core/api/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/../../osdk-core/utility/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/../../osdk-core/hal/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/../../osdk-core/protocol/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/../../osdk-core/platform/linux/inc"/>
+					<Add directory="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/flight-control/../common"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/sample/linux/flight-control/Makefile&quot;  VERBOSE=1 djiosdk-flightcontrol-sample/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/sample/linux/flight-control/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/sample/linux/flight-control/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lining/Onboard-SDK-3.8-fin-velocity/cmake-build-debug/sample/linux/flight-control/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/common/dji_linux_environment.cpp">
+			<Option target="djiosdk-flightcontrol-sample"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/common/dji_linux_environment.hpp">
+			<Option target="djiosdk-flightcontrol-sample"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/common/dji_linux_helpers.cpp">
+			<Option target="djiosdk-flightcontrol-sample"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/common/dji_linux_helpers.hpp">
+			<Option target="djiosdk-flightcontrol-sample"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/flight-control/flight_control_sample.cpp">
+			<Option target="djiosdk-flightcontrol-sample"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/flight-control/flight_control_sample.hpp">
+			<Option target="djiosdk-flightcontrol-sample"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/flight-control/main_ori.cpp">
+			<Option target="djiosdk-flightcontrol-sample"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\osdk-core\"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/cmake-modules/DJIOSDKConfig.cmake.in">
+			<Option virtualFolder="CMake Files\osdk-core\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/osdk-core/cmake-modules/DJIOSDKConfigVersion.cmake.in">
+			<Option virtualFolder="CMake Files\osdk-core\cmake-modules\"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/contrib/DJIConfig.cmake">
+			<Option virtualFolder="CMake Files\contrib\"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sample\linux\"/>
+		</Unit>
+		<Unit filename="/home/lining/Onboard-SDK-3.8-fin-velocity/sample/linux/flight-control/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sample\linux\flight-control\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
